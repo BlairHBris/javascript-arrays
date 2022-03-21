@@ -8,9 +8,18 @@ Given an array containing the english alphabet, write code that returns an array
 
 function getAlphaNumericAlphabet(){
   const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-  let alphaNumericAlphabet
+  let alphaNumericAlphabet = Array();
+  let numbers = Array();
 
-  // Your code here
+  for(let i = 0; i < 10; i++){
+    numbers.push(i);
+  }
+
+  alphaNumericAlphabet = [...numbers, ...alphabet]
+
+  alphaNumericAlphabet.push("&");
+
+  console.log(alphaNumericAlphabet);
 
   return alphaNumericAlphabet
 }
