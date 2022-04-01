@@ -16,8 +16,6 @@ function getSpanishAlphabet(){
   let spanishAddition = spanishAlphabet.splice(3, 0, "ch");
   let spanishAddition1 = spanishAlphabet.splice(15, 0, "ñ");
   let spanishAddition2 = spanishAlphabet.splice(13, 0, "ll");
-
-  console.log(spanishAlphabet);
   
   return spanishAlphabet
 }

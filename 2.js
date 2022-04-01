@@ -19,8 +19,6 @@ function getAlphaNumericAlphabet(){
 
   alphaNumericAlphabet.push("&");
 
-  console.log(alphaNumericAlphabet);
-
   return alphaNumericAlphabet
 }
 
